@@ -8,4 +8,5 @@ void callGame() {
   xSpeed *= 0.8; //
   ySpeed *= 0.8;
   degrees += 1;
+  collision();
 }
